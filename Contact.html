@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<header>
+    <title>Thais Gonzalez's Problem Set 1 </title>
+    <link rel="stylesheet" href="./style.css">
+</header>
+<body id="body">
+    <nav>
+        <ul id="menu">
+            <li><a id="link" href="./index.html">Home</a></li>
+            <li><a id="link" href="./Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;Contact Information</h1>
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click to make me dizzy!</h3>
+    <img id="cartoon" src="./thaisCartoon2.jpg" alt="">
+    <p>Feel free to email me at <a class="link" href = "mailto: thaisgm@umich.edu">thaisgm@umich.edu</a>!</p>
+    <p>Additionally, connect with me on <a class="link" href = "https://www.linkedin.com/in/k-thais-gonzalez/">LinkedIn</a>!</p>
+    <script>
+        cartoon.addEventListener("click", function(){
+            document.getElementById("cartoon").style.animation = 'rotation 2s infinite linear';
+        });
+        body.addEventListener("mouseover", function(){
+            element = document.getElementById("cartoon").style;
+            element.removeProperty('animation');
+        });
+    </script>
+</body>
+<footer class="footer">
+    <p>Created by Thais Gonzalez in HTML</p>
+</footer>
+</html>
